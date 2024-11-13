@@ -1,5 +1,8 @@
 {
   "name": "serverless-on-aws-with-datadog-monitoring",
+  "scripts": {
+    "deploy": "serverless deploy"
+  },
   "devDependencies": {
     "serverless-plugin-datadog": "^5.73.0"
   },
