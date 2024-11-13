@@ -1,0 +1,17 @@
+{
+  "name": "serverless-on-aws-with-datadog-monitoring",
+  "scripts": {
+    "deploy": "serverless deploy"
+  },
+  "devDependencies": {
+    "serverless-plugin-datadog": "^5.73.0"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.687.0",
+    "@aws-sdk/client-sns": "^3.687.0",
+    "@aws-sdk/util-dynamodb": "^3.689.0",
+    "@octokit/auth-app": "^4.0.5",
+    "@octokit/core": "^4.0.5"
+  },
+  "license": "MIT"
+}
